@@ -5,7 +5,6 @@ function Home() {
     <>
       <main>
         <section>
-          <div className="container">
             <div className="text-container">
               <div className="text">
                 <p className="p1">Advanced Healthcare Made Personal</p>
@@ -24,7 +23,7 @@ function Home() {
                 <img src="./src/pages/Home/images/doctor.png" alt="" />
               </div>
             </div>
-          </div>
+         
         </section>
       </main>
     </>
