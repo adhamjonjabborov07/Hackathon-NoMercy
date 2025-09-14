@@ -53,7 +53,7 @@
   color: #102d47;
   width: 470px;
   padding-top: 150px;
-  color: #102D47;
+  color: #102d47;
 }
 .text2 {
   font-family: DM Sans;
@@ -74,21 +74,62 @@
   padding-bottom: 100px;
 }
 
-.btn2{
-    padding: 16px 24px;
-    border: 2px solid #2F73F2;
-    border-radius: 8px;
-    font-family: DM Sans;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: center;
-    background-color: transparent;
-    color: black;
-    color: #2F73F2;
+.btn2 {
+  padding: 16px 24px;
+  border: 2px solid #2f73f2;
+  border-radius: 8px;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  color: #2f73f2;
 }
-.btn-container{
-    padding-top: 56px;
+.btn-container {
+  padding-top: 56px;
 }
+.card {
+  width: 370px;
+  height: 300px;
+  border-radius: 8px;
+  padding: 44px;
+  border: 2px solid #e6e8ec;
+}
+.div-p {
+  padding-top: 114px;
+}
+.div-p1 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -3%;
+  color: #102d47;
+}
+.div-p1 p {
+  width: 346px;
+}
+.main-card {
+  display: flex;
+  gap: 30px;
+  padding-top: 50px;
+}
+.card1 {
+  width: 370px;
+  height: 300px;
+  border-radius: 8px;
+  padding: 10px;
+  border: 2px solid #e6e8ec;
+  background-image: url("./src/pages/Home/images/doc.png");
+  color: white;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+

@@ -20,7 +20,11 @@ function Home() {
             </div>
 
             <div>
-              <img className="img1" src="./src/pages/Home/images/doctor.png" alt="" />
+              <img
+                className="img1"
+                src="./src/pages/Home/images/doctor.png"
+                alt=""
+              />
             </div>
           </div>
         </section>
@@ -37,7 +41,70 @@ function Home() {
                 evolved over the years, sometimes by accident.
               </p>
               <div className="btn-container">
-                <button className="btn2" type="button">Read More</button>
+                <button className="btn2" type="button">
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div className="container">
+            <div className="div-p1">
+              <p>Highly innovativetechnology & services</p>
+            </div>
+            <div className="main-card">
+              <div className="card">
+                <div>
+                  <img src="./src/pages/Home/images/icon.svg" alt="" />
+                </div>
+                <div className="div-p">
+                  <p>Cardiology</p>
+                </div>
+              </div>
+              <div className="card1">
+                <div className="div-p">
+                  <p>
+                    Radiology uses medical imaging, like X-rays and MRIs, to
+                    diagnose and treat diseases, allowing doctors to visualize
+                    internal body structures.
+                  </p>
+                </div>
+              </div>
+              <div className="card">
+                <div>
+                  <img src="./src/pages/Home/images/sa.svg" alt="" />
+                </div>
+                <div className="div-p">
+                  <p>Gynecology</p>
+                </div>
+              </div>
+            </div>
+            <div className="main-card">
+              <div className="card">
+                <div>
+                  <img src="./src/pages/Home/images/as.svg" alt="" />
+                </div>
+                <div className="div-p">
+                  <p>Cardiology</p>
+                </div>
+              </div>
+              <div className="card1">
+                <div className="div-p">
+                  <p>
+                    Radiology uses medical imaging, like X-rays and MRIs, to
+                    diagnose and treat diseases, allowing doctors to visualize
+                    internal body structures.
+                  </p>
+                </div>
+              </div>
+              <div className="card">
+                <div>
+                  <img src="./src/pages/Home/images/sa.svg" alt="" />
+                </div>
+                <div className="div-p">
+                  <p>Gynecology</p>
+                </div>
               </div>
             </div>
           </div>
