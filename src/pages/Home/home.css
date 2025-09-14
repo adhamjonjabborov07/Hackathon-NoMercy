@@ -52,6 +52,8 @@
   letter-spacing: -3%;
   color: #102d47;
   width: 470px;
+  padding-top: 150px;
+  color: #102D47;
 }
 .text2 {
   font-family: DM Sans;
@@ -62,4 +64,31 @@
   letter-spacing: 0%;
   color: #102d47;
   width: 470px;
+  padding-top: 50px;
+  color: grey;
+}
+.text-container2 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.btn2{
+    padding: 16px 24px;
+    border: 2px solid #2F73F2;
+    border-radius: 8px;
+    font-family: DM Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    color: #2F73F2;
+}
+.btn-container{
+    padding-top: 56px;
 }

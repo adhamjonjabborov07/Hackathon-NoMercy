@@ -36,8 +36,8 @@ function Home() {
                 necessary making desktop publishing Various versions have
                 evolved over the years, sometimes by accident.
               </p>
-              <div>
-                <button className="btn2" type="button"></button>
+              <div className="btn-container">
+                <button className="btn2" type="button">Read More</button>
               </div>
             </div>
           </div>
