@@ -1,6 +1,9 @@
 import DoctorCard from "../../components/doctors/DoctorCard";
 import "./Doctors.css";
 import ch1 from "../Doctors/img/ch1.png";
+import ch2 from "../Doctors/img/ch2.png";
+import ch3 from "../Doctors/img/ch3.png";
+import ch4 from "../Doctors/img/ch4.png";
 
 function Doctors() {
   return (
