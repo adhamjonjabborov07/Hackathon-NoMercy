@@ -1,0 +1,38 @@
+.doctorCard {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.doctorCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.doctorImg {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+}
+
+.doctorInfo {
+    padding: 10px;
+}
+
+.doctorInfo h4 {
+    margin: 8px 0 4px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #102d47;
+}
+
+.doctorInfo p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #444;
+}
