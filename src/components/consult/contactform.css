@@ -1,0 +1,109 @@
+.contactSection {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 40px;
+  padding: 60px;
+  background: linear-gradient(90deg, #1e64ff 50%, #46c6ff 50%);
+}
+
+.contactInfo {
+  color: #fff;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contactInfo h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.infoBlock {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.mapBtn {
+  background: #fff;
+  color: #1e64ff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+  align-self: flex-start;
+}
+
+.mapBtn:hover {
+  background: #f1f1f1;
+}
+
+.formCard {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  width: 400px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formRow {
+  display: flex;
+  gap: 15px;
+}
+
+.formRow input {
+  flex: 1;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 0.95rem;
+}
+
+textarea {
+  min-height: 100px;
+  resize: none;
+}
+
+.submitBtn {
+  background: #1e64ff;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.submitBtn:hover {
+  background: #1550d4;
+}
+
+/* Адаптив */
+@media (max-width: 900px) {
+  .contactSection {
+    flex-direction: column;
+    background: #1e64ff;
+  }
+
+  .formCard {
+    width: 100%;
+  }
+}

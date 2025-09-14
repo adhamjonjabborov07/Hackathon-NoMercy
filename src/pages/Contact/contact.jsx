@@ -1,6 +1,7 @@
 import "./contact.css";
 import email1 from "../Contact/img/Email.png";
 import addres1 from "../Contact/img/Address.png";
+import ContactForm from "../../components/consult/contactform";
 
 function Contact() {
   return (
@@ -13,7 +14,6 @@ function Contact() {
         </p>
       </div>
 
-      {/* блок с Email + Address */}
       <div className="cont2">
         <div className="conT2">
           <div className="imgCont">
@@ -40,7 +40,6 @@ function Contact() {
         </div>
       </div>
 
-      {/* карта */}
       <div className="mapContainer">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.1412546499564!2d72.50740497525841!3d23.124682913508774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84e9e3a2d3f1%3A0x3fa8d5b6cb3acb9b!2sGANESH%20GLORY%2C%20Gota%2C%20Ahmedabad%2C%20Gujarat%20382481!5e0!3m2!1sen!2sin!4v1694523145612!5m2!1sen!2sin"
@@ -53,6 +52,7 @@ function Contact() {
           title="Google Map"
         ></iframe>
       </div>
+      <ContactForm />
     </>
   );
 }
