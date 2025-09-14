@@ -22,7 +22,7 @@ function Header() {
         <Link to="/login" className="btn btn-primary">
           Sign In
         </Link>
-        <Link to="/signUp" className="btn btn-outline">
+        <Link to="/signUp" className="btn btn-primary">
           Sign Up
         </Link>
       </div>
