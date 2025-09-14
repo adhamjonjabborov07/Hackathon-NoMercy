@@ -53,33 +53,32 @@ function Home() {
             <div className="div-p1">
               <p>Highly innovativetechnology & services</p>
             </div>
-           <div className="main-card">
-  <div className="card">
-    <div>
-      <img src="./src/pages/Home/images/icon.svg" alt="" />
-    </div>
-    <div className="div-p">
-      <p>Cardiology</p>
-    </div>
-  </div>
-  <div className="card1">
-    <div className="div-p">
-      <p>
-        Radiology uses medical imaging, like X-rays and MRIs, to
-        diagnose and treat diseases, allowing doctors to visualize
-        internal body structures.
-      </p>
-    </div>
-  </div>
-  <div className="card">
-    <div>
-      <img src="./src/pages/Home/images/sa.svg" alt="" />
-    </div>
-    <div className="div-p">
-      <p>Gynecology</p>
-    </div>
-  </div>
-</div>
+            <div className="main-card">
+              <div className="card">
+                <div>
+                  <img src="./src/pages/Home/images/icon.svg" alt="" />
+                </div>
+                <div className="div-p">
+                  <p>Cardiology</p>
+                </div>
+              </div>
+               <div className="card">
+                <div>
+                  <img src="./src/pages/Home/images/sa.svg" alt="" />
+                </div>
+                <div className="div-p">
+                  <p>Gynecology</p>
+                </div>
+              </div>
+              <div className="card">
+                <div>
+                  <img src="./src/pages/Home/images/sa.svg" alt="" />
+                </div>
+                <div className="div-p">
+                  <p>Gynecology</p>
+                </div>
+              </div>
+            </div>
             <div className="main-card">
               <div className="service-card">
                 <div className="service-icon">
@@ -96,7 +95,7 @@ function Home() {
               <div className="service-card">
                 <div className="service-icon">
                   <img
-                    src="./src/pages/Home/images/sa.svg"
+                    src="./src/pages/Home/images/br.svg"
                     alt="Lung Diseases"
                   />
                 </div>
