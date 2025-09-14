@@ -1,5 +1,5 @@
 .container {
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
 }
 .p1 {
@@ -45,5 +45,5 @@
 .text-container{
     display: flex;
     justify-content: space-around;
-    padding-top: 200px;
+    padding-top: 100px;
 }
