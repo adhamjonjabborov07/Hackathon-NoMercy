@@ -6,7 +6,7 @@ function Home() {
       <main>
         <section>
           <div className="container">
-            <div>
+            <div className="text">
               <p>Advanced Healthcare Made Personal</p>
               <p>
                 Letraset sheets containing Lorem Ipsum passages and more
@@ -17,7 +17,7 @@ function Home() {
               </div>
             </div>
           </div>
-          
+
         </section>
       </main>
     </>
