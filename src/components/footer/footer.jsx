@@ -17,13 +17,13 @@ function Footer() {
             years, sometimes.
           </p>
           <div className="social-icons">
-            <a href="#">
+            <a target="blank" href="https://www.facebook.com/?locale=ru_RU">
               <FaFacebookF />
             </a>
-            <a href="#">
+            <a target="blank" href="https://x.com/?lang=ru">
               <FaTwitter />
             </a>
-            <a href="#">
+            <a target="blank" href="https://www.instagram.com/">
               <FaLinkedinIn />
             </a>
           </div>
