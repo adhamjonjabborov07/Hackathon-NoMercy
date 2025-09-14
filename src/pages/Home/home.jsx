@@ -13,8 +13,8 @@ function Home() {
                 recently with desktop publishing
               </p>
               <div>
-                <button className="btn1" type="button">
-                  <a href="#">Book appointment</a>
+                <button className="btn1" type="button" style={{cursor:"pointer"}}>
+                  Book Appoinment
                 </button>
               </div>
             </div>
@@ -37,7 +37,7 @@ function Home() {
                 evolved over the years, sometimes by accident.
               </p>
               <div className="btn-container">
-                <button className="btn2" type="button">Read More</button>
+                <button className="btn2" type="button" style={{cursor:"pointer"}}>Read More</button>
               </div>
             </div>
           </div>
