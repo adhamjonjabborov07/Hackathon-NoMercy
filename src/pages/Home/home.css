@@ -32,14 +32,34 @@
   line-height: 24px;
   letter-spacing: 0%;
   text-align: center;
-  background-color: #2F73F2;
+  background-color: #2f73f2;
   color: white;
 }
-.bt1:hover{
-    background-color: red;
+.bt1:hover {
+  background-color: red;
 }
-.text-container{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 100px;
+.text-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+.text1 {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -3%;
+  color: #102d47;
+  width: 470px;
+}
+.text2 {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #102d47;
+  width: 470px;
 }

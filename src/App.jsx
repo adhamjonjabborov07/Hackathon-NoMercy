@@ -6,6 +6,7 @@ import Layout from "./components/layout/layout";
 import Notfound from "./pages/Notfound/Notfound";
 import SignIn from "./pages/SignIn/SignIn";
 import signUp from "./pages/SignUp/SignUp";
+import doctors from "./pages/Doctors/Doctors";
 function App() {
   return (
     <Routes>
@@ -14,6 +15,7 @@ function App() {
       <Route path="*" element={<Notfound />} />
       <Route path="/login" element={<SignIn/>}/>
       <Route path="/signUp" element={<signUp/>}/>
+      <Route path="/doctors" element={<doctors/>}/>
     </Routes>
   );  
 }
