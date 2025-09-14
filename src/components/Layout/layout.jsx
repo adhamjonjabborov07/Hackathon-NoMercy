@@ -4,10 +4,12 @@ import Footer from "../footer/footer";
 import "./layout.css"
 function Layout({ children }) {
   return (
-    <div className="conatiner">
+    <div className="bg">
+      <div className="conatiner">
       <Header />
       {children}
       <Footer />
+    </div>
     </div>
   );
 }

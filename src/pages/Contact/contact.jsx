@@ -13,7 +13,7 @@ function Contact() {
         </p>
       </div>
 
-      {/* блок с Email + Address */}
+
       <div className="cont2">
         <div className="conT2">
           <div className="imgCont">
