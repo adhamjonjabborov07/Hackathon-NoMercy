@@ -14,7 +14,7 @@ function Home() {
               </p>
               <div>
                 <button className="btn1" type="button">
-                Book appointment
+                  Book appointment
                 </button>
               </div>
             </div>
@@ -86,14 +86,14 @@ function Home() {
                   <img src="./src/pages/Home/images/as.svg" alt="" />
                 </div>
                 <div className="div-p">
-                  <p>Cardiology</p>
+                  <p>Sports Injury</p>
                 </div>
               </div>
               <div className="card">
+                <div>
+                  <img src="./src/pages/Home/images/sa.svg" alt="" />
+                </div>
                 <div className="div-p">
-                  <div>
-                    <img src="./src/pages/Home/images/eye.svg" alt="" />
-                  </div>
                   <p>Lung Diseases</p>
                 </div>
               </div>
@@ -102,7 +102,39 @@ function Home() {
                   <img src="./src/pages/Home/images/sa.svg" alt="" />
                 </div>
                 <div className="div-p">
-                  <p>Gynecology</p>
+                  <p>Eye Care</p>
+                </div>
+              </div>
+            </div>
+            <div className="btn-container1">
+              <button className="btn1" type="button">
+                View More
+              </button>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div className="container">
+            <div className="text-container2">
+              <div>
+                <img src="./src/pages/Home/images/ij.png" alt="" />
+              </div>
+              <div>
+                <div>
+                  <p className="text1">Find Support for Your Mental Health</p>
+                </div>
+                <div>
+                  <p className="text2">
+                    Connect with others facing similar challenges through guided
+                    group sessions. These support circles offer a safe space to
+                    share, listen, and grow together while managing anxiety,
+                    depression, and emotional wellbeing.
+                  </p>
+                </div>
+                <div className="btn-container">
+                  <button className="btn1" type="button">
+                    Read More
+                  </button>
                 </div>
               </div>
             </div>

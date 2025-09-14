@@ -100,6 +100,7 @@
   border-radius: 8px;
   padding: 44px;
   border: 2px solid #e6e8ec;
+  background-color: white;
 }
 .div-p {
   padding-top: 114px;
@@ -133,5 +134,10 @@
   font-size: 20px;
   line-height: 32px;
   letter-spacing: 0%;
+  background-color: white;
 }
 
+.btn-container1 {
+  padding-top: 56px;
+  text-align: center;
+}
