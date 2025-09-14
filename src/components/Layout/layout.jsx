@@ -1,9 +1,10 @@
 import React from "react";
 import Header from "../Header/Header";
 import Footer from "../footer/footer";
+import "./layout.css"
 function Layout({ children }) {
   return (
-    <div>
+    <div className="conatiner">
       <Header />
       {children}
       <Footer />
