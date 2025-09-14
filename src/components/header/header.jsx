@@ -16,6 +16,7 @@ function Header() {
         <Link className="pages-style" to="/contact">
           Contact
         </Link>
+        <Link className="pages-style" to="/services">Services</Link>
       </nav>
 
       <div className="right">
