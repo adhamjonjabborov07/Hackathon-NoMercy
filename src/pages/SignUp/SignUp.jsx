@@ -4,45 +4,46 @@ import { FaGoogle, FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
+import { useNavigate } from "react-router-dom";
 function SignUp() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [pass, setPass] = useState("");
-async function handleSubmit(e) {
-  e.preventDefault();
+  const navigate = useNavigate("/");
+  async function handleSubmit(e) {
+    e.preventDefault();
 
-  let botToken = "8201661237:AAHCpolGOJE8Fopd-itpNn8lXJXFwxg8Zmg"; 
-  let chatId = 6491991337; 
-  let message = `📝 Yangi Sign Up:\n👤 Name: ${name}\n📧 Email: ${email}\n🔑 Password: ${pass}`;
+    let botToken = "8201661237:AAHCpolGOJE8Fopd-itpNn8lXJXFwxg8Zmg";
+    let chatId = 6491991337;
+    let message = `📝 Yangi Sign Up:\n👤 Name: ${name}\n📧 Email: ${email}\n🔑 Password: ${pass}`;
 
-  try {
-    let response = await fetch(
-      `https://api.telegram.org/bot${botToken}/sendMessage`,
-      {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ chat_id: chatId, text: message }),
+    try {
+      let response = await fetch(
+        `https://api.telegram.org/bot${botToken}/sendMessage`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ chat_id: chatId, text: message }),
+        }
+      );
+
+      let data = await response.json();
+      console.log("Telegram javobi:", data);
+
+      if (response.ok) {
+        toast.success("✅ Ro‘yxatdan o‘tish yuborildi!");
+        setName("");
+        setEmail("");
+        setPass("");
+        navigate("/")
+      } else {
+        toast.error("❌ Xabar yuborilmadi!");
       }
-    );
-
-    let data = await response.json();
-    console.log("Telegram javobi:", data);
-
-    if (response.ok) {
-      toast.success("✅ Ro‘yxatdan o‘tish yuborildi!");
-      setName("");
-      setEmail("");
-      setPass("");
-    } else {
-      toast.error("❌ Xabar yuborilmadi!");
+    } catch (error) {
+      console.error(error);
+      toast.error("⚠️ Tarmoq xatosi");
     }
-  } catch (error) {
-    console.error(error);
-    toast.error("⚠️ Tarmoq xatosi");
   }
-}
-
 
   return (
     <div className="signup-page">
@@ -51,7 +52,6 @@ async function handleSubmit(e) {
       <p className="signup-breadcrumb">Home / Sign Up Page</p>
 
       <div className="signup-card">
-
         <div className="signup-buttons">
           <button className="signup-btn social-btn">
             <FaGoogle className="icon" /> Sign Up
@@ -63,7 +63,6 @@ async function handleSubmit(e) {
 
         <div className="divider">OR</div>
 
-  
         <form className="signup-form" onSubmit={handleSubmit}>
           <input
             type="text"
