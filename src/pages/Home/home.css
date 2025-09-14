@@ -23,7 +23,7 @@
 }
 .btn1 {
   padding: 16px 24px;
-  border: none;
+  border: 2px solid #2f73f2;
   border-radius: 8px;
   font-family: DM Sans;
   font-weight: 400;
@@ -32,11 +32,13 @@
   line-height: 24px;
   letter-spacing: 0%;
   text-align: center;
+  background-color: transparent;
+  color: #2f73f2;
+  
+}
+.btn1:hover {
   background-color: #2f73f2;
   color: white;
-}
-.bt1:hover {
-  background-color: red;
 }
 .text-container {
   display: flex;

@@ -14,7 +14,7 @@ function Home() {
               </p>
               <div>
                 <button className="btn1" type="button">
-                  <a href="#">Book appointment</a>
+                Book appointment
                 </button>
               </div>
             </div>
