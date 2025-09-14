@@ -1,13 +1,49 @@
-.conatiner{
-    width: 85%;
-    margin: 0 auto;
+.container {
+  width: 50%;
+  margin: 0 auto;
 }
-.text:nth-child(1){
-font-weight: 700;
-font-style: Bold;
-font-size: 50px;
-line-height: 68px;
-letter-spacing: -3%;
-color: #102D47;
-;
+.p1 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 50px;
+  line-height: 68px;
+  letter-spacing: -3%;
+  color: #102d47;
+  width: 470px;
+}
+.text {
+  
+  padding-top: 100px;
+}
+.p2 {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #102d47;
+  width: 470px;
+}
+.btn1 {
+  padding: 16px 24px;
+  border: none;
+  border-radius: 8px;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  background-color: #2F73F2;
+  color: white;
+}
+.bt1:hover{
+    background-color: red;
+}
+.text-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 200px;
 }
