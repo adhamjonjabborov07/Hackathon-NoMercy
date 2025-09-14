@@ -53,55 +53,63 @@ function Home() {
             <div className="div-p1">
               <p>Highly innovativetechnology & services</p>
             </div>
+           <div className="main-card">
+  <div className="card">
+    <div>
+      <img src="./src/pages/Home/images/icon.svg" alt="" />
+    </div>
+    <div className="div-p">
+      <p>Cardiology</p>
+    </div>
+  </div>
+  <div className="card1">
+    <div className="div-p">
+      <p>
+        Radiology uses medical imaging, like X-rays and MRIs, to
+        diagnose and treat diseases, allowing doctors to visualize
+        internal body structures.
+      </p>
+    </div>
+  </div>
+  <div className="card">
+    <div>
+      <img src="./src/pages/Home/images/sa.svg" alt="" />
+    </div>
+    <div className="div-p">
+      <p>Gynecology</p>
+    </div>
+  </div>
+</div>
             <div className="main-card">
-              <div className="card">
-                <div>
-                  <img src="./src/pages/Home/images/icon.svg" alt="" />
+              <div className="service-card">
+                <div className="service-icon">
+                  <img
+                    src="./src/pages/Home/images/as.svg"
+                    alt="Sports Injury"
+                  />
                 </div>
-                <div className="div-p">
-                  <p>Cardiology</p>
-                </div>
-              </div>
-              <div className="card1">
-                <div className="div-p">
-                  <p>
-                    Radiology uses medical imaging, like X-rays and MRIs, to
-                    diagnose and treat diseases, allowing doctors to visualize
-                    internal body structures.
-                  </p>
-                </div>
-              </div>
-              <div className="card">
-                <div>
-                  <img src="./src/pages/Home/images/sa.svg" alt="" />
-                </div>
-                <div className="div-p">
-                  <p>Gynecology</p>
-                </div>
-              </div>
-            </div>
-            <div className="main-card">
-              <div className="card">
-                <div>
-                  <img src="./src/pages/Home/images/as.svg" alt="" />
-                </div>
-                <div className="div-p">
+                <div className="service-title">
                   <p>Sports Injury</p>
                 </div>
               </div>
-              <div className="card">
-                <div>
-                  <img src="./src/pages/Home/images/sa.svg" alt="" />
+
+              <div className="service-card">
+                <div className="service-icon">
+                  <img
+                    src="./src/pages/Home/images/sa.svg"
+                    alt="Lung Diseases"
+                  />
                 </div>
-                <div className="div-p">
+                <div className="service-title">
                   <p>Lung Diseases</p>
                 </div>
               </div>
-              <div className="card">
-                <div>
-                  <img src="./src/pages/Home/images/sa.svg" alt="" />
+
+              <div className="service-card">
+                <div className="service-icon">
+                  <img src="./src/pages/Home/images/sa.svg" alt="Eye Care" />
                 </div>
-                <div className="div-p">
+                <div className="service-title">
                   <p>Eye Care</p>
                 </div>
               </div>
