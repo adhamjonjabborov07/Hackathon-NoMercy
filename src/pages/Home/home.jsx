@@ -94,7 +94,7 @@ function Home() {
                   <div>
                     <img src="./src/pages/Home/images/eye.svg" alt="" />
                   </div>
-                  <p></p>
+                  <p>Lung Diseases</p>
                 </div>
               </div>
               <div className="card">
