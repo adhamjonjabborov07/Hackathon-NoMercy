@@ -5,7 +5,7 @@ import Home from "./pages/Home/home";
 import Layout from "./components/layout/layout";
 import Notfound from "./pages/Notfound/Notfound";
 import SignIn from "./pages/SignIn/SignIn";
-import signUp from "./pages/SignUp/SignUp";
+import SignUp from "./pages/SignUp/SignUp";
 import Doctors from "./pages/Doctors/Doctors";
 import Servic from "./pages/Servisec/Services";
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Route path="/contact" element={<Layout> <Contact/> </Layout>}  />
       <Route path="*" element={<Notfound />} />
       <Route path="/login" element={<Layout><SignIn/></Layout>}/>
-      <Route path="/signUp" element={<Layout><signUp/></Layout>}/>
+      <Route path="/signUp" element={<Layout><SignUp/></Layout>}/>
       <Route path="/doctors" element={<Layout><Doctors/></Layout>}/>
       <Route path="/services" element={<Layout><Servic/></Layout>}/>
          </Routes>

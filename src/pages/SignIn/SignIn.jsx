@@ -1,7 +1,7 @@
 import React from "react";
 import "./signin.css";
 import { FaGoogle, FaGithub } from "react-icons/fa";
-
+import { Link } from "react-router-dom";
 function SignIn() {
   return (
     <div className="signin-page">
@@ -31,7 +31,7 @@ function SignIn() {
         <div className="signin-links">
           <a href="#">Forget Password?</a>
           <p>
-            Not a member yet? <a href="#">Sign Up</a>
+            Not a member yet? <Link to={"/signup"}>Sign up</Link>
           </p>
         </div>
       </div>
