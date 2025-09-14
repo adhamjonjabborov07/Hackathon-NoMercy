@@ -89,13 +89,12 @@ function Home() {
                   <p>Cardiology</p>
                 </div>
               </div>
-              <div className="card1">
+              <div className="card">
                 <div className="div-p">
-                  <p>
-                    Radiology uses medical imaging, like X-rays and MRIs, to
-                    diagnose and treat diseases, allowing doctors to visualize
-                    internal body structures.
-                  </p>
+                  <div>
+                    <img src="./src/pages/Home/images/eye.svg" alt="" />
+                  </div>
+                  <p></p>
                 </div>
               </div>
               <div className="card">
