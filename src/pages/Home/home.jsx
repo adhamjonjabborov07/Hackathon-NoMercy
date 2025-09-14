@@ -20,12 +20,12 @@ function Home() {
             </div>
 
             <div>
-              <img src="./src/pages/Home/images/doctor.png" alt="" />
+              <img className="img1" src="./src/pages/Home/images/doctor.png" alt="" />
             </div>
           </div>
         </section>
         <section>
-          <div>
+          <div className="text-container2">
             <img src="./src/pages/Home/images/doctor1.png" alt="" />
             <div>
               <p className="text1">The Heart and Science Of Medicine Service</p>
