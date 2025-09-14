@@ -11,15 +11,59 @@ import servic from "./pages/Servisec/Services";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Layout> <Home/> </Layout>} />
-      <Route path="/contact" element={<Layout> <Contact/> </Layout>}  />
+      <Route
+        path="/"
+        element={
+          <Layout>
+            {" "}
+            <Home />{" "}
+          </Layout>
+        }
+      />
+      <Route
+        path="/contact"
+        element={
+          <Layout>
+            {" "}
+            <Contact />{" "}
+          </Layout>
+        }
+      />
       <Route path="*" element={<Notfound />} />
-      <Route path="/login" element={<Layout><SignIn/></Layout>}/>
-      <Route path="/signUp" element={<Layout><signUp/></Layout>}/>
-      <Route path="/doctors" element={<Layout><doctors/></Layout>}/>
-      <Route path="/services" element={<Layout><servic/></Layout>}/>
-         </Routes>
-  );  
+      <Route
+        path="/login"
+        element={
+          <Layout>
+            <SignIn />
+          </Layout>
+        }
+      />
+      <Route
+        path="/signUp"
+        element={
+          <Layout>
+            <signUp />
+          </Layout>
+        }
+      />
+      <Route
+        path="/doctors"
+        element={
+          <Layout>
+            <doctors />
+          </Layout>
+        }
+      />
+      <Route
+        path="/services"
+        element={
+          <Layout>
+            <servic />
+          </Layout>
+        }
+      />
+    </Routes>
+  );
 }
 
 export default App;

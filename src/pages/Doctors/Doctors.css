@@ -1,0 +1,51 @@
+.doc1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 96px;
+    gap: 28px;
+    padding-bottom: 40px;
+}
+
+.doc1 h1 {
+    color: #102D47;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
+.doc1 p {
+    color: #102D47;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    width: 600px;
+}
+
+.doc2 {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    background-color: white;
+}
+
+.doc2 h3 {
+    color: #102D47;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.doc2 p {
+    color: #00000080;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+
+}
+.lineDoc{
+    display: flex;
+    flex-wrap: wrap;
+}

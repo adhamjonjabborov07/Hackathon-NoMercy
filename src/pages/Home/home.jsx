@@ -41,7 +41,7 @@ function Home() {
                 evolved over the years, sometimes by accident.
               </p>
               <div className="btn-container">
-                <button className="btn2" type="button">
+                <button className="btn1" type="button">
                   Read More
                 </button>
               </div>
