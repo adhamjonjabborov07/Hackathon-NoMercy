@@ -4,6 +4,11 @@ import ch1 from "../Doctors/img/ch1.png";
 import ch2 from "../Doctors/img/ch2.png";
 import ch3 from "../Doctors/img/ch3.png";
 import ch4 from "../Doctors/img/ch4.png";
+import ch5 from "../Doctors/img/ch5.png";
+import ch6 from "../Doctors/img/ch6.jpg";
+import ch7 from "../Doctors/img/ch7.png";
+import ContactForm from "../../components/consult/contactform";
+import ch8 from "../Doctors/img/ch8.png";
 
 function Doctors() {
   return (
@@ -30,11 +35,7 @@ function Doctors() {
             specialty="Gastroenterology"
           />
 
-          <DoctorCard
-            image={ch3}
-            name="Dr. Kimberly"
-            specialty="Neurology"
-          />
+          <DoctorCard image={ch3} name="Dr. Kimberly" specialty="Neurology" />
 
           <DoctorCard
             image={ch4}
@@ -42,7 +43,28 @@ function Doctors() {
             specialty="Obstetrics"
           />
         </div>
+        <div className="lineDoc2">
+          <DoctorCard
+            image={ch5}
+            name="Dr. Rebecca Rose"
+            specialty="Gynecology"
+          />
+          <DoctorCard
+            image={ch6}
+            name="Dr. Stephanie Sue"
+            specialty="Haematology"
+          />
+
+          <DoctorCard
+            image={ch7}
+            name="Dr. Penelope"
+            specialty="Physiotherapy"
+          />
+
+          <DoctorCard image={ch8} name="Dr. Lauren Leah" specialty="Oncology" />
+        </div>
       </div>
+      <ContactForm />
     </>
   );
 }
