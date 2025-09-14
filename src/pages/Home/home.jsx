@@ -1,11 +1,25 @@
 import React, { useRef, useState } from "react";
-import "./home.css"
+import "./home.css";
 function Home() {
   return (
     <>
-    <div>
-     <p>Home</p>
-    </div>
+      <main>
+        <section>
+          <div className="container">
+            <div>
+              <p>Advanced Healthcare Made Personal</p>
+              <p>
+                Letraset sheets containing Lorem Ipsum passages and more
+                recently with desktop publishing
+              </p>
+              <div>
+                <button type="button">Book appointment</button>
+              </div>
+            </div>
+          </div>
+          
+        </section>
+      </main>
     </>
   );
 }
